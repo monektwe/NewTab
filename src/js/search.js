@@ -2,7 +2,7 @@ const $search = document.getElementById("search-input")
 
 const moveResultPage = () => {
     let searchWord = $search.value;
-    window.location.href = `https://google.com/search?q={searchWord}`;
+    window.location.href = `https://google.com/search?q=${searchWord}`;
     searchWord = ""
 };
 
