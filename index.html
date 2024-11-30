@@ -4,13 +4,20 @@
 <head>
     <title>NewTab</title>
     <meta charset="UTF-8" />
+    <meta name="viewport" contnet="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./src/css/main.css" />
+    <link rel="stylesheet" href="./src/css/card.css" />
 </head>
 
 <body>
+    <div class="container">
+        <div class="overlay"></div>
+        <div class="card"></div>
+    </div>
+
     <div id="main-container">
         <div class="main-wrapper">
             <div class="today-info">
@@ -26,7 +33,6 @@
             </div>
         </div>
     </div>
-
 
     <div class="bookmark-btn close" id="bookmark-close-btn">
         <div id="bookmark-close-btn-text">북마크 닫기</div>
@@ -63,6 +69,7 @@
     <script src="src/js/clock.js"></script>
     <script src="src/js/search.js"></script>
     <script src="src/js/bookmark-bar.js"></script>
+    <script src="src/js/card.js"></script>
 </body>
 
 </html>

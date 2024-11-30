@@ -1,0 +1,33 @@
+.container {
+    width: 220px;
+    height: 310px;
+    transition: all 0.1s;
+    position: absolute;
+
+    top: 30px;
+    left: 30px;
+    z-index: 2;
+
+}
+
+.overlay {
+    position: absolute;
+    width: 220px;
+    height: 310px;
+    background: linear-gradient(105deg,
+            transparent 40%,
+            rgba(255, 219, 112, 0.8) 45%,
+            rgba(132, 50, 255, 0.6) 50%,
+            transparent 54%);
+    filter: brightness(1.2) opacity(0.8);
+    mix-blend-mode: color-dodge;
+    background-size: 150% 150%;
+    background-position: 100%;
+}
+
+.card {
+    width: 220px;
+    height: 310px;
+    background-image: url(https://cafe24.poxo.com/ec01/skylook8624/NQ3hxQBK2CnGlVO5mP4kwenvcm/bbKlBlXh1OLkuLtNZm1yiUh2rvqLEhdFlHM3gGQV8AgMUegyvDgkGkVqTMw==/_/web/product/big/160201xy9/XY9-088.jpg);
+    background-size: cover;
+}
