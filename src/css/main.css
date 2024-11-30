@@ -73,9 +73,9 @@ body {
 /* 북마크 바 열고 닫기*/
 .bookmark-btn {
     width: 240px;
-    padding: 0px 30px 20px 30px;
+    padding: 10px 30px 20px 30px;
     font-size: 18px;
-    height: 20px;
+    height: auto;
     position: absolute;
     bottom: 0px;
     right: 0px;
